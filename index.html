@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Gemini</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bot.css">
+</head>
+
+<body class="w-full min-h-screen flex flex-col p-3">
+  <main >
+
+    <!-- Header -->
+
+    <header>
+      <img src="chatbot.jpg" alt="chatbot image" style="width: 30px; height: 30px; border-radius: 10px;" />
+      <h1>Gemini Chatbot</h1>
+    </header>
+
+    <!--chat box -->
+    <div class="chatbox">
+      <!-- chat area -->
+      <div class="chatarea" id="chat-container">
+        
+
+      </div>
+    
+
+    </div>
+    <!-- prompt -->
+    <form action="" method="post" class="mess-form" id="chat-form">
+      <textarea name="prompt" id="prompt" cols="30" rows="4" class="mess-text"
+        placeholder="Enter message here....."></textarea>
+      <button type="submit" class="mess-btn">
+        Send
+      </button>
+    </form>
+
+
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
